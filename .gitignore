@@ -2,6 +2,9 @@
 
 ## CLion User settings
 /.idea/workspace.xml
+/cmake-build/
 
-## XCode User settings
+## XCode
 xcuserdata/
+/Build/
+
