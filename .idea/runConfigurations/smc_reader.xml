@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="smc_reader" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="TC1C" PASS_PARENT_ENVS_2="true" PROJECT_NAME="smc_reader" TARGET_NAME="smc_reader" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="smc_reader" RUN_TARGET_NAME="smc_reader">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

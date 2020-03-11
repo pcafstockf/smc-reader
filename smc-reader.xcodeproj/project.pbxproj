@@ -10,6 +10,7 @@
 		251C6C4624194807009E8185 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 251C6C4524194807009E8185 /* main.cpp */; };
 		251C6C4E24195055009E8185 /* apple-smc-reader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 251C6C4D24195055009E8185 /* apple-smc-reader.cpp */; };
 		251C6C512419536E009E8185 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 251C6C502419536E009E8185 /* IOKit.framework */; };
+		257C57F72419A83300B50C65 /* smc-read.c in Sources */ = {isa = PBXBuildFile; fileRef = 257C57F62419A83300B50C65 /* smc-read.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,8 @@
 		251C6C4C24195055009E8185 /* apple-smc-reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "apple-smc-reader.h"; sourceTree = "<group>"; };
 		251C6C4D24195055009E8185 /* apple-smc-reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "apple-smc-reader.cpp"; sourceTree = "<group>"; };
 		251C6C502419536E009E8185 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		257C57F52419A83300B50C65 /* smc-read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "smc-read.h"; sourceTree = "<group>"; };
+		257C57F62419A83300B50C65 /* smc-read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "smc-read.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 		251C6C4424194807009E8185 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				257C57F62419A83300B50C65 /* smc-read.c */,
+				257C57F52419A83300B50C65 /* smc-read.h */,
 				251C6C4D24195055009E8185 /* apple-smc-reader.cpp */,
 				251C6C4C24195055009E8185 /* apple-smc-reader.h */,
 				251C6C4524194807009E8185 /* main.cpp */,
@@ -137,6 +142,7 @@
 			files = (
 				251C6C4624194807009E8185 /* main.cpp in Sources */,
 				251C6C4E24195055009E8185 /* apple-smc-reader.cpp in Sources */,
+				257C57F72419A83300B50C65 /* smc-read.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

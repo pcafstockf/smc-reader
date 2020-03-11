@@ -3,11 +3,17 @@ MIT licensed code for reading from the Apple System Management Control (SMC)
 
 ## About
 [Apple's SMC subsystem](https://en.wikipedia.org/wiki/System_Management_Controller) allows you to query the system for CPU temperature, fan speeds, power usage, etc.  
-There are currently many good libraries to accomplish this, but everything that I found was based on smc.cc/h which is a GPL licensed implementation.  
+There are currently many good libraries to accomplish that, but everything that I found was based on smc.cc/h which is a GPL licensed implementation.  
 I felt there was a need for similar functionality under a more permissive license.
 
-This project contains the source code for a command line tool that allows you to query specific keys in the SMC, or to dump all SMC keys for your machine.  
-However, the real purpose of the project is to publish the ./src/apple-smc-reader.cpp/.h files.
+This project does contain the source code for a command line tool which allows you to query specific keys in the SMC, or to dump all SMC keys for your machine.  
+However, the real purpose of the project is to publish the ./src/smc-read.c/.h files.
+
+## Other Resources
+This project is all about the code, it makes no attempt to be an information source about SMC itself.  
+I found this [discussion thread](https://www.insanelymac.com/forum/topic/328814-smc-keys-knowledge-database/) to be a helpful starting point, and there are tons of links in that thread.  
+There are a great list of keys at [fakesmc](https://app.assembla.com/wiki/show/fakesmc), and [VirtualSMC](https://github.com/acidanthera/VirtualSMC/blob/master/Docs/SMCKeys.txt)  
+The [JSystemInfoKit](https://github.com/xythobuz/JSystemInfoKit) project also had a nice descriptions of the keys, and is [archived](https://web.archive.org/web/20160525005847/https://jbot-42.github.io/systeminfokit.html) here.
 
 That's it.  
 Enjoy!
