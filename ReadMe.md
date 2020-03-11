@@ -6,6 +6,9 @@ MIT licensed code for reading from the Apple System Management Control (SMC)
 There are currently many good libraries to accomplish this, but everything that I found was based on smc.cc/h which is a GPL licensed implementation.  
 I felt there was a need for similar functionality under a more permissive license.
 
+This project contains the source code for a command line tool that allows you to query specific keys in the SMC, or to dump all SMC keys for your machine.  
+However, the real purpose of the project is to publish the ./src/apple-smc-reader.cpp/.h files.
+
 That's it.  
 Enjoy!
 
