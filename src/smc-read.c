@@ -37,7 +37,9 @@ SOFTWARE.
  * This function translates from a null terminated "C" string to a 32 bit unsigned integer that the SMC will recognize.
  */
 uint32_t stringToKey(const char* str) {
-	return ntohl(*(uint32_t*) str);
+	uint32_t tmp[2];
+	strncpy((char*)&tmp, str, 4);	// This is necessary because a char* may not be 4 byte aligned.
+	return ntohl(tmp[0]);
 }
 
 /**
