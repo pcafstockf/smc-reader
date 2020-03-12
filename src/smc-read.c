@@ -38,7 +38,7 @@ SOFTWARE.
  */
 uint32_t stringToKey(const char* str) {
 	uint32_t tmp[2];
-	strncpy((char*)&tmp, str, 4);	// This is necessary because a char* may not be 4 byte aligned.
+	strncpy((char*)&tmp, str, 4);	// This is necessary because a char* might not be 4 byte aligned.
 	return ntohl(tmp[0]);
 }
 
